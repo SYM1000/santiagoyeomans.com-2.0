@@ -129,7 +129,7 @@ nav{
   bottom: -3px;
   width: 100%;
   height: 4.7rem;
-  background: url("Images/wave-small.png") center no-repeat;
+  /*background: url("Images/wave-small.png") center no-repeat;*/
   background-size: cover;
 }
 
@@ -174,7 +174,7 @@ nav{
 
 /*Experience*/
 .experience{
-  padding: 0;
+  padding: 6;
 }
 
 .title-heading{
@@ -198,13 +198,13 @@ nav{
   text-transform: lowercase;
 }
 
-.activities-grid{
+.experiences-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
 }
 
-.activities-grid-item{
+.experiences-grid-item{
   height: 40rem;
   padding: 5rem;
   color: #fafafa;
@@ -216,7 +216,7 @@ nav{
   z-index: 1;
 }
 
-.activities-grid-item::before{
+.experiences-grid-item::before{
   content: "";
   position: absolute;
   top: 0;
@@ -227,24 +227,24 @@ nav{
   z-index: -1;
 }
 
-.star-gazing{
+.one{
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.hiking{
+.two{
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.camping{
+.three{
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.activities-grid-item ion-icon{
+.experiences-grid-item ion-icon{
   font-size: 4rem;
   color: #eb648c;
 }
 
-.activities-grid-item h1{
+.experiences-grid-item h1{
   font-family: 'Lato', sans-serif;
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -269,7 +269,7 @@ nav{
   left: 0;
   width: 100%;
   height: 4.7rem;
-  background: url(Images/wave-small-reversed.png)center no-repeat;
+  /*background: url(Images/wave-small-reversed.png)center no-repeat;*/
   background-size: cover;
 }
 
@@ -301,8 +301,8 @@ nav{
 }
 
 .testimonial-customer img{
-  width: 10rem;
-  height: 10rem;
+  width: 13rem;
+  height: 14rem;
   border-radius: 100%;
   border: 3px solid #eb648c;
 }
@@ -329,12 +329,16 @@ footer{
 }
 
 /*Media queries*/
+
+/*
 @media screen and (min-width: 350px){ 
   .main-message{
-    transform: translateY(40%);
+    transform: translateY(35%);
   }
 }
+*/
 
+/*
 @media screen and (min-width: 470px){
   .hero::before{
     height: 9.4rem;
@@ -348,7 +352,10 @@ footer{
     background-size: cover;
   }
 }
+*/
 
+
+/*
 @media screen and (min-width: 700px){
   header{
     height: 8rem;
@@ -410,6 +417,7 @@ footer{
     height: 60vh;
   }
 
+  
   .main-message{
     transform: translateY(70%);
   }
@@ -418,7 +426,9 @@ footer{
     font-size: 2.5rem;
   }
 }
+*/
 
+/*
 @media screen and (min-width: 950px){
   .hero::before{
     height: 22.7rem;
@@ -432,12 +442,17 @@ footer{
     background-size: cover;
   }
 
+  .experience{
+    padding: 0;
+  }
 }
+*/
 
+/*
 @media screen and (min-width: 1200px){
 
   .hero{
     height: 75vh;
   }
-
 }
+*/
