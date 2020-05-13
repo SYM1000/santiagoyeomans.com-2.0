@@ -476,10 +476,11 @@ footer{
 }
 .card-image.card1 {
   grid-area: image;
-  background: url("Images/budda.jpg");
+  background: url("Images/BuddaDev.gif");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
+  background-position: center;
 }
 
 .card-text {
@@ -494,6 +495,7 @@ footer{
   color: grey;
   font-size:15px;
   font-weight: 300;
+  margin-top: 6px;
 }
 .card-text h2 {
   margin-top:0px;
@@ -509,6 +511,8 @@ footer{
 /*card2*/
 .card-image.card2 {
   background: url("Images/priceTracker.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-text.card2 .date {
@@ -517,7 +521,44 @@ footer{
 
 /*card3*/
 .card-image.card3 {
+  background: url("Images/GMapsDev.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+
+/*card4*/
+.card-image.card4 {
+  background: url("Images/twitter_bot.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+
+/*card5*/
+.card-image.card5 {
+  background: url("Images/TopSpeed2.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card3 .date {
+  color: rgb(255, 7, 110);
+}
+
+/*card6*/
+.card-image.card6 {
   background: url("Images/foto3.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-text.card3 .date {
