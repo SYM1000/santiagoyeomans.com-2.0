@@ -281,6 +281,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 15px;
 }
 
 .testimonial-text-box{
@@ -307,6 +308,57 @@ nav{
   border: 3px solid #eb648c;
 }
 
+.socialmedia{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: auto;
+}
+
+.icons{
+  list-style: none;
+}
+.icons li{
+  position: relative;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.icons li:before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 10%;
+  background: linear-gradient(45deg, #7b00e0,#ae31d9);
+  transition: all 0.4s ease-in-out;
+}
+
+.icons li:hover:before{
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+
+.icons li a span{
+  color: #fff;
+  line-height: 70px;
+  font-size: 27px;
+  transition: all 0.4s ease-out;
+}
+
+.icons li:hover a span{
+  transform: scale(1.5);
+}
+
+
+
 
 /*Projects*/
 .projects-grid{
@@ -315,8 +367,6 @@ nav{
   grid-gap: 4.5rem;
   margin-bottom: 2rem;
 }
-
-
 
 
 
@@ -564,3 +614,5 @@ footer{
 .card-text.card3 .date {
   color: rgb(0, 189, 63);
 }
+
+
