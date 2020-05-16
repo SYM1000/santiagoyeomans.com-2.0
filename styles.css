@@ -171,6 +171,7 @@ nav{
   padding: 1rem 2.5rem;
   text-transform: uppercase;
   transition: background-color 650ms;
+  font-size: 1.1rem;
 }
 
 .btn:hover{
@@ -220,7 +221,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   cursor: auto;
-  z-index: 1;
+  z-index: 0; /* Antes lo tenía en 1 */
 }
 
 .experiences-grid-item::before{
@@ -637,8 +638,8 @@ footer{
   border-top-right-radius: 15px;
   background-size: cover;
 }
-.card-text.card3 .date {
-  color: rgb(0, 189, 63);
+.card-text.card4 .date {
+  color: rgb(29, 202, 255);
 }
 
 /*card5*/
@@ -649,19 +650,19 @@ footer{
   background-size: cover;
   background-position: center;
 }
-.card-text.card3 .date {
-  color: rgb(255, 7, 110);
+.card-text.card5 .date {
+  color: rgb(255, 0, 0);
 }
 
 /*card6*/
 .card-image.card6 {
-  background: url("Images/foto3.jpg");
+  background: url("Images/twitter.gif");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
-.card-text.card3 .date {
-  color: rgb(0, 189, 63);
+.card-text.card6 .date {
+  color: rgb(29, 202, 255);
 }
 
 
