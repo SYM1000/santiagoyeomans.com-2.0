@@ -71,13 +71,13 @@ nav{
   filter: invert(100%);
 }
 
-.menu-icons ion-icon{
-  font-size: 3.5rem;
+.menu-icons i{
+  font-size: 2.5rem;
   color: #fafafa;
   cursor: pointer;
 }
 
-.close ion-icon{
+.close i{
   color: #eb648c;
 }
 
@@ -207,8 +207,8 @@ nav{
 
 .experiences-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit , minmax(25rem, 1fr));
+  grid-gap: 6.5rem;
 }
 
 .experiences-grid-item{
@@ -236,6 +236,12 @@ nav{
 
 .one{
   background: url("Images/stars.jpg") center no-repeat;
+  
+}
+.one p{
+  column-count:2;
+  text-align: center;
+  column-gap: auto;
 }
 
 .two{
@@ -246,9 +252,10 @@ nav{
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.experiences-grid-item ion-icon{
+.experiences-grid-item i{
   font-size: 4rem;
   color: #eb648c;
+  text-align: center;
 }
 
 .experiences-grid-item h1{
@@ -256,8 +263,9 @@ nav{
   font-size: 1.7rem;
   text-transform: uppercase;
   margin: 2rem 0;
-
+  text-align: center;
 }
+
 
 
 /*Testimonials*/
@@ -400,6 +408,13 @@ footer{
   .hero{
     height: 100vh;
   }
+
+  .experiences-grid{
+    grid-template-columns: repeat(auto-fit , minmax(16rem, 1fr));
+
+  }
+
+}
 
 @media screen and (min-width: 350px){ 
   .main-message{
