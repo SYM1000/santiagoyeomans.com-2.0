@@ -67,7 +67,7 @@ nav{
 }
 
 .nav-brand{
-  width: 2rem;
+  width: 5rem;
   filter: invert(100%);
 }
 
@@ -219,7 +219,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  cursor: pointer;
+  cursor: auto;
   z-index: 1;
 }
 
@@ -443,7 +443,7 @@ footer{
   }
 
   .nav-brand{
-    width: 3.5rem;
+    width: 7.0rem;
   }
 
   .nav-list{
