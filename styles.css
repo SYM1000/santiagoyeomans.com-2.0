@@ -542,8 +542,6 @@ footer{
   
 }
 
-
-
 .card {
   display: grid;
   grid-template-columns: auto;
@@ -650,4 +648,5 @@ footer{
 .card-text.card3 .date {
   color: rgb(0, 189, 63);
 }
+
 
