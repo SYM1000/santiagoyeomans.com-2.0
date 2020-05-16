@@ -7,7 +7,7 @@
             maximum-scale=1.0, minimum-scale=1.0">
       <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
       <title>Santiago Yeomans | Home</title>
-
+      <link rel="icon" href="Images/favicon64.png">
       <!-- Icons -->
       <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -49,19 +49,19 @@
           </div>
 
           <li class = "nav-item">
-              <a href="#" class="nav-link current">Home</a>
+              <a href="#hero" class="nav-link current">Home</a>
           </li>
 
           <li class = "nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#testimonials" class="nav-link">About</a>
           </li>
 
           <li class = "nav-item">
-              <a href="#" class="nav-link">Skills</a>
+              <a href="#experience" class="nav-link">Skills</a>
           </li>
 
           <li class = "nav-item">
-              <a href="#" class="nav-link">Projects</a>
+              <a href="#Projects" class="nav-link">Projects</a>
           </li>
 
           <li class = "nav-item">
@@ -73,17 +73,18 @@
     </header>
 
 <main>
-  <section class="hero">
+  <!-- Main -->
+  <section id= "hero" class="hero">
       <div class="container">
           <div class="main-message">
             <h3>Santiago Yeomans</h3>
             <h1>Computer Science Student 👨‍💻</h1>
             <p>I describe myself as an innovative, disruptive and entrepreneurial person, 
               with a passion for knowledge and technology; Someone that overcomes failure in 
-              order to be better, and create stuff that create a positive impact in our society.
+              order to be better, and make stuff that creates a positive impact in our society.
                </p>
                <div class="cta">
-                 <a href="#" class = "btn">See My Projects!</a>
+                 <a href="#Projects" class = "btn">See My Projects!</a>
                </div>
           </div>
       </div>
@@ -91,7 +92,7 @@
 
 
 <!-- Experiencias -->
-  <section class= "experience">
+  <section id= "experience" class= "experience">
     <div class="container">
       <div class="title-heading">
           <h3>Experience</h3>
@@ -136,7 +137,7 @@
   </section>
 
   <!-- Sobre Mí -->
-  <section class = "testimonials">
+  <section id= "testimonials" class = "testimonials">
     <div class = "container">
       <div class = "testimonial">
         <div class="testimonial-text-box">
@@ -164,7 +165,7 @@
      </section>
 
      <!-- My Projects-->
-     <section class="Projects">
+     <section id="Projects" class="Projects">
        <div class="container">
         <div class="title-heading">
           <h3>Check out</h3>
@@ -245,7 +246,7 @@
        
 
 
-       <a class="btn" href="#">Reach Me!</a>
+       <a class="btn" href="#testimonials">Reach Me!</a>
        </div>
       </div>
      </section>
@@ -260,8 +261,9 @@
 
 
 
-<script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 
-
-</body>
+  </body>
 </html>

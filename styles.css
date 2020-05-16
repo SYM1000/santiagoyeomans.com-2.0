@@ -11,6 +11,11 @@ html{
   font-family: 'Nunito', sans-serif;
   font-size: 10px;
   box-sizing: border-box;
+  /* overflow: hidden;
+  overflow-y:scroll;
+  scroll-behavior: smooth; */
+  /* Efecto Snap en el scroll */
+  /*scroll-snap-type: y mandatory; --> For snap Efects */
 }
 
 a{
@@ -120,6 +125,7 @@ nav{
   background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.2) 100%), url("Images/city.gif") center no-repeat;
   background-size: cover;
   position: relative;
+  /*scroll-snap-align: center; --> For snap Efects */
   }
 
 .hero::before{
@@ -175,6 +181,7 @@ nav{
 /*Experience*/
 .experience{
   padding: 6;
+  /*scroll-snap-align: center; --> For snap Efects */
 }
 
 .title-heading{
@@ -260,6 +267,7 @@ nav{
   background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.2) 100%), url("Images/profilebg2.gif") center no-repeat fixed;
   background-size: cover;
   position: relative;
+  /*scroll-snap-align: center; --> For snap Efects */
 }
 
 .testimonials::before{
@@ -360,7 +368,11 @@ nav{
 
 
 
-/*Projects*/
+/*Projectss*/
+.Projects{
+ /* scroll-snap-align: center; --> For snap Efects */
+}
+
 .projects-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -638,5 +650,4 @@ footer{
 .card-text.card3 .date {
   color: rgb(0, 189, 63);
 }
-
 
