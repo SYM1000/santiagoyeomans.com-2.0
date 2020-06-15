@@ -665,6 +665,7 @@ footer{
   color: rgb(29, 202, 255);
 }
 
+/*card7*/
 .card-image.card7 {
   background: url("Images/GOL-2.gif");
   border-top-left-radius: 15px;
@@ -676,4 +677,26 @@ footer{
   color: rgb(#7b00e0);
 }
 
+/*card8*/
+.card-image.card8 {
+  background: url("Images/gameplay4.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card7 .date {
+  color: rgb(#7b00e0);
+}
 
+/*card9*/
+.card-image.card9 {
+  background: url("Images/Wanna\ Fragance\ Logo.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card7 .date {
+  color: rgb(#7b00e0);
+}
