@@ -685,7 +685,7 @@ footer{
   background-size: cover;
   background-position: center;
 }
-.card-text.card7 .date {
+.card-text.card8 .date {
   color: rgb(#7b00e0);
 }
 
@@ -697,6 +697,6 @@ footer{
   background-size: cover;
   background-position: center;
 }
-.card-text.card7 .date {
-  color: rgb(#7b00e0);
+.card-text.card9 .date {
+  color: rgb(#a52d2d);
 }
