@@ -700,3 +700,27 @@ footer{
 .card-text.card9 .date {
   color: rgb(#a52d2d);
 }
+
+/*card10*/
+.card-image.card10 {
+  background: url("Images/Previs.\ de\ app\ 8.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card10 .date {
+  color: rgb(255, 0, 0);
+}
+
+/*card11*/
+.card-image.card11 {
+  background: url("Images/Lucid\ Dreams\ Logo.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card11 .date {
+  color: rgb(#7b00e0);
+}
