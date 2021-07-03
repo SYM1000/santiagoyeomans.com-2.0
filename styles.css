@@ -736,3 +736,15 @@ footer{
 .card-text.card12 .date {
   color: orange
 }
+
+/*card13*/
+.card-image.card13 {
+  background: url("Images/hero.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card13 .date {
+  color: purple
+}
