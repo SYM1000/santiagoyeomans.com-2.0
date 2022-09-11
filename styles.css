@@ -748,3 +748,15 @@ footer{
 .card-text.card13 .date {
   color: purple
 }
+
+/*card14*/
+.card-image.card14 {
+  background: url("Images/spaces_promo.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card14 .date {
+  color: rgb(0, 89, 255)
+}
