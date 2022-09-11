@@ -724,3 +724,27 @@ footer{
 .card-text.card11 .date {
   color: rgb(#7b00e0);
 }
+
+/*card12*/
+.card-image.card12 {
+  background: url("Images/Gameplay.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card12 .date {
+  color: orange
+}
+
+/*card13*/
+.card-image.card13 {
+  background: url("Images/hero.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card13 .date {
+  color: purple
+}
