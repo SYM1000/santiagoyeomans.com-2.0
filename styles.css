@@ -772,3 +772,15 @@ footer{
 .card-text.card0 .date {
   color: rgb(234, 0, 55)
 }
+
+/*card15*/
+.card-image.card15 {
+  background: url("Images/renno_screenshot.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card15 .date {
+  color: rgb(255, 140, 0)
+}
