@@ -760,3 +760,15 @@ footer{
 .card-text.card14 .date {
   color: rgb(0, 89, 255)
 }
+
+/*card0*/
+.card-image.card0 {
+  background: url("Images/DroneGif.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card0 .date {
+  color: rgb(234, 0, 55)
+}
