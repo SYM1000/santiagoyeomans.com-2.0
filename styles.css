@@ -796,3 +796,15 @@ footer{
 .card-text.card16 .date {
   color: rgb(132, 0, 215)
 }
+
+/*card17 - Horizon*/
+.card-image.card17 {
+  background: url("Images/Horizon_render.JPG");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card17 .date {
+  color: rgb(255, 109, 25)
+}
