@@ -808,3 +808,15 @@ footer{
 .card-text.card17 .date {
   color: rgb(255, 109, 25)
 }
+
+/*card18 - Art Gallery*/
+.card-image.card18 {
+  background: url("Images/ArtGalleryLogo.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card18 .date {
+  color: rgb(0, 0, 0)
+}
