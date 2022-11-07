@@ -182,7 +182,7 @@ nav{
 /*Experience*/
 .experience{
   padding: 6;
-  /*scroll-snap-align: center; --> For snap Efects */
+  /* scroll-snap-align: center; --> For snap Efects */
 }
 
 .title-heading{
@@ -222,6 +222,7 @@ nav{
   justify-content: center;
   cursor: auto;
   z-index: 0; /* Antes lo tenía en 1 */
+  gap: 15px;
 }
 
 .experiences-grid-item::before{
@@ -240,9 +241,9 @@ nav{
   
 }
 .one p{
-  column-count:2;
-  text-align: center;
-  column-gap: auto;
+  column-count:1;
+  /* text-align: center; */
+  /* column-gap: auto; */
 }
 
 .two{
@@ -267,6 +268,22 @@ nav{
   text-align: center;
 }
 
+.experiences-grid-item img{
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+  display: inline;
+}
+
+.tec-logo{
+  color: #ffffff;
+}
+
+.experience-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
 
 /*Testimonials*/
