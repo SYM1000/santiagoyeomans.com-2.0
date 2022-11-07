@@ -784,3 +784,15 @@ footer{
 .card-text.card15 .date {
   color: rgb(255, 140, 0)
 }
+
+/*card16*/
+.card-image.card16 {
+  background: url("Images/GesRecDemo.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card16 .date {
+  color: rgb(132, 0, 215)
+}
