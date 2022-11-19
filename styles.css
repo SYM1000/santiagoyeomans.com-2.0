@@ -159,7 +159,7 @@ nav{
 }
 
 .main-message p{
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .btn{
