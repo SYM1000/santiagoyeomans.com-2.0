@@ -143,12 +143,12 @@ nav{
   width: 100%;
   max-width: 50rem;
   color: #fafafa;
-  text-transform: uppercase;
   transform: translateY(20%);
 }
 
 .main-message h3{
   font-size: 1.6rem;
+  text-transform: uppercase;
   /*margin-top: -100px;*/
 }
 
@@ -156,6 +156,7 @@ nav{
   font-family: 'Lato', sans-serif;
   font-size: 4rem;
   margin: 1rem 0;
+  text-transform: uppercase;
 }
 
 .main-message p{
