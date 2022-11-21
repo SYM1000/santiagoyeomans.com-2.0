@@ -159,9 +159,7 @@ nav{
   text-transform: uppercase;
 }
 
-.main-message p{
-  text-transform: none;
-}
+/* .main-message p{} */
 
 .btn{
   background-color: #eb648c;
