@@ -836,3 +836,15 @@ footer{
 .card-text.card18 .date {
   color: rgb(0, 0, 0)
 }
+
+/*card19 - Eye Tracker */
+.card-image.card19 {
+  background: url("Images/eyetracker_demo.gif");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card19 .date {
+  color: rgb(218, 80, 12)
+}
