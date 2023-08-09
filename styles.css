@@ -1,14 +1,14 @@
 /*GLOBAL STYLES*/
 *,
 *::before,
-*::after{
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
-html{
-  font-family: 'Nunito', sans-serif;
+html {
+  font-family: "Nunito", sans-serif;
   font-size: 10px;
   box-sizing: border-box;
   /* overflow: hidden;
@@ -18,30 +18,30 @@ html{
   /*scroll-snap-type: y mandatory; --> For snap Efects */
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-p{
-  font-size: 1.6rem
+p {
+  font-size: 1.6rem;
 }
 
-img{
+img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-section{
+section {
   padding: 5rem 0;
 }
 
 /*Header*/
-header{
+header {
   width: 100%;
   height: 5rem;
   position: absolute;
@@ -50,38 +50,38 @@ header{
   z-index: 1;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 98rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-nav{
+nav {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.nav-brand{
+.nav-brand {
   width: 5rem;
   filter: invert(100%);
 }
 
-.menu-icons i{
+.menu-icons i {
   font-size: 2.5rem;
   color: #fafafa;
   cursor: pointer;
 }
 
-.close i{
+.close i {
   color: #eb648c;
 }
 
-.nav-list{
+.nav-list {
   width: 25rem;
   height: 100vh;
   background-color: #d7d4ed;
@@ -96,39 +96,44 @@ nav{
   transition: all 650ms ease-in-out;
 }
 
-.nav-list.active{
+.nav-list.active {
   right: 0;
 }
 
-.close{
+.close {
   position: absolute;
   top: 1rem;
   left: 1.5rem;
 }
 
-.nav-item{
+.nav-item {
   margin: 1.5rem 0;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.6rem;
   text-transform: uppercase;
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /*Tamaño de los iconos*/
 /*ion-icon {font-size: 36px;}*/
 
-.hero{
+.hero {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.2) 100%), url("Images/city.gif") center no-repeat;
+  background: linear-gradient(
+      135deg,
+      rgba(49, 24, 131, 0.9) 0%,
+      rgba(72, 56, 149, 0.2) 100%
+    ),
+    url("Images/city.gif") center no-repeat;
   background-size: cover;
   position: relative;
   /*scroll-snap-align: center; --> For snap Efects */
-  }
+}
 
-.hero::before{
+.hero::before {
   content: "";
   position: absolute;
   left: 0;
@@ -139,21 +144,21 @@ nav{
   background-size: cover;
 }
 
-.main-message{
+.main-message {
   width: 100%;
   max-width: 50rem;
   color: #fafafa;
   transform: translateY(20%);
 }
 
-.main-message h3{
+.main-message h3 {
   font-size: 1.6rem;
   text-transform: uppercase;
   /*margin-top: -100px;*/
 }
 
-.main-message h1{
-  font-family: 'Lato', sans-serif;
+.main-message h1 {
+  font-family: "Lato", sans-serif;
   font-size: 4rem;
   margin: 1rem 0;
   text-transform: uppercase;
@@ -161,7 +166,7 @@ nav{
 
 /* .main-message p{} */
 
-.btn{
+.btn {
   background-color: #eb648c;
   border-radius: 2rem;
   color: #fafafa;
@@ -173,45 +178,44 @@ nav{
   font-size: 1.1rem;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ce587b;
 }
 
-
 /*Experience*/
-.experience{
+.experience {
   padding: 6;
   /* scroll-snap-align: center; --> For snap Efects */
 }
 
-.title-heading{
+.title-heading {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10rem;
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.title-heading h3{
+.title-heading h3 {
   font-size: 1.4rem;
 }
 
-.title-heading h1{
-  font-family: 'Aldrich', sans-serif;
+.title-heading h1 {
+  font-family: "Aldrich", sans-serif;
   font-size: 2rem;
   margin-bottom: 0.5rem 0 1rem;
 }
 
-.title-heading p{
+.title-heading p {
   text-transform: lowercase;
 }
 
-.experiences-grid{
+.experiences-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit , minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 6.5rem;
 }
 
-.experiences-grid-item{
+.experiences-grid-item {
   height: 40rem;
   padding: 5rem;
   color: #fafafa;
@@ -224,57 +228,60 @@ nav{
   gap: 15px;
 }
 
-.experiences-grid-item::before{
+.experiences-grid-item::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.2) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgba(49, 24, 131, 0.9) 0%,
+    rgba(72, 56, 149, 0.2) 100%
+  );
   z-index: -1;
 }
 
-.one{
+.one {
   background: url("Images/stars.jpg") center no-repeat;
-  
 }
-.one p{
-  column-count:1;
+.one p {
+  column-count: 1;
   /* text-align: center; */
   /* column-gap: auto; */
 }
 
-.two{
+.two {
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.three{
+.three {
   background: url("Images/stars.jpg") center no-repeat;
 }
 
-.experiences-grid-item i{
+.experiences-grid-item i {
   font-size: 4rem;
   color: #eb648c;
   text-align: center;
 }
 
-.experiences-grid-item h1{
-  font-family: 'Lato', sans-serif;
+.experiences-grid-item h1 {
+  font-family: "Lato", sans-serif;
   font-size: 1.7rem;
   text-transform: uppercase;
   margin: 2rem 0;
   text-align: center;
 }
 
-.experiences-grid-item img{
+.experiences-grid-item img {
   width: 50px;
   max-width: 100%;
   height: auto;
   display: inline;
 }
 
-.tec-logo{
+.tec-logo {
   color: #ffffff;
 }
 
@@ -284,29 +291,33 @@ nav{
   gap: 15px;
 }
 
-
 /*Testimonials*/
-.testimonials{
+.testimonials {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.2) 100%), url("Images/profilebg2.gif") center no-repeat fixed;
+  background: linear-gradient(
+      135deg,
+      rgba(49, 24, 131, 0.9) 0%,
+      rgba(72, 56, 149, 0.2) 100%
+    ),
+    url("Images/profilebg2.gif") center no-repeat fixed;
   background-size: cover;
   position: relative;
   /*scroll-snap-align: center; --> For snap Efects */
 }
 
-.testimonials::before{
+.testimonials::before {
   content: "";
   position: absolute;
   top: -3px;
   left: 0;
   width: 100%;
   height: 4.7rem;
-  background: url(Images/wave-small-reversed.png)center no-repeat;
+  background: url(Images/wave-small-reversed.png) center no-repeat;
   background-size: cover;
 }
 
-.testimonial{
+.testimonial {
   width: 100%;
   color: #fafafa;
   position: absolute;
@@ -317,31 +328,31 @@ nav{
   font-size: 15px;
 }
 
-.testimonial-text-box{
+.testimonial-text-box {
   padding: 0 1.5rem;
   margin-bottom: 2rem;
   position: relative;
 }
 
-.testimonial-text-box i{
+.testimonial-text-box i {
   position: absolute;
   top: -8rem;
   left: 50%;
   transform: translateX(-50%);
   font-size: 8rem;
   color: #eb648c;
-  opacity: .5;
+  opacity: 0.5;
   z-index: -1;
 }
 
-.testimonial-customer img{
+.testimonial-customer img {
   width: 13rem;
   height: 14rem;
   border-radius: 100%;
   border: 3px solid #eb648c;
 }
 
-.socialmedia{
+.socialmedia {
   display: grid;
   height: 100%;
   place-items: center;
@@ -350,10 +361,10 @@ nav{
   margin-bottom: auto;
 }
 
-.icons{
+.icons {
   list-style: none;
 }
-.icons li{
+.icons li {
   position: relative;
   height: 70px;
   width: 70px;
@@ -361,8 +372,8 @@ nav{
   margin: 0 10px;
   cursor: pointer;
 }
-.icons li:before{
-  content: '';
+.icons li:before {
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -370,79 +381,69 @@ nav{
   left: 0;
   z-index: -1;
   border-radius: 10%;
-  background: linear-gradient(45deg, #7b00e0,#ae31d9);
+  background: linear-gradient(45deg, #7b00e0, #ae31d9);
   transition: all 0.4s ease-in-out;
 }
 
-.icons li:hover:before{
+.icons li:hover:before {
   transform: rotate(360deg);
   border-radius: 100%;
 }
 
-.icons li a span{
+.icons li a span {
   color: #fff;
   line-height: 70px;
   font-size: 27px;
   transition: all 0.4s ease-out;
 }
 
-.icons li:hover a span{
+.icons li:hover a span {
   transform: scale(1.5);
 }
 
-
-
-
 /*Projectss*/
-.Projects{
- /* scroll-snap-align: center; --> For snap Efects */
+.Projects {
+  /* scroll-snap-align: center; --> For snap Efects */
 }
 
-.projects-grid{
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   grid-gap: 4.5rem;
   margin-bottom: 2rem;
 }
 
-
-
 /*Footer*/
-footer{
+footer {
   padding: 2.5rem 0;
   background-color: #d7d4ed;
   text-align: center;
-  color: rgba(0, 0, 0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
-
 /*Media queries*/
-@media screen and (min-width: 300px){ 
-  .main-message{
+@media screen and (min-width: 300px) {
+  .main-message {
     transform: translateY(10%);
   }
 
-  .hero{
+  .hero {
     height: 100vh;
   }
 
-  .experiences-grid{
-    grid-template-columns: repeat(auto-fit , minmax(16rem, 1fr));
-
+  .experiences-grid {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   }
-
 }
 
-@media screen and (min-width: 350px){ 
-  .main-message{
+@media screen and (min-width: 350px) {
+  .main-message {
     transform: translateY(25%);
   }
 
-  .hero{
+  .hero {
     height: 100vh;
   }
-
-
 
   /* Checar si esto es necesario
   .testimonials::before{
@@ -451,34 +452,30 @@ footer{
   */
 }
 
-
-
-@media screen and (min-width: 470px){
-  .hero::before{
+@media screen and (min-width: 470px) {
+  .hero::before {
     height: 9.4rem;
     background: url("Images/wave-medium.png");
     background-size: cover;
   }
 
-  .testimonials::before{
+  .testimonials::before {
     height: 9.4rem;
     background: url("Images/wave-medium-reversed.png");
     background-size: cover;
   }
 }
 
-
-
-@media screen and (min-width: 700px){
-  header{
+@media screen and (min-width: 700px) {
+  header {
     height: 8rem;
   }
 
-  .nav-brand{
-    width: 7.0rem;
+  .nav-brand {
+    width: 7rem;
   }
 
-  .nav-list{
+  .nav-list {
     width: initial;
     height: initial;
     background-color: transparent;
@@ -489,27 +486,27 @@ footer{
     transition: initial;
   }
 
-  .menu-icons{
+  .menu-icons {
     display: none;
   }
 
-  .nav-item{
+  .nav-item {
     margin: 0 2.5rem;
   }
 
   .nav-link,
-  .current{
+  .current {
     color: #fafafa;
     position: relative;
     font-size: 1.3rem;
   }
 
   .nav-link::before,
-  .current::before{
+  .current::before {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -.5rem;
+    bottom: -0.5rem;
     background-color: #eb648c;
     width: 100%;
     height: 2px;
@@ -518,15 +515,15 @@ footer{
     transition: transform 650ms;
   }
 
-  .current::before{
+  .current::before {
     transform: scaleX(1);
   }
 
-  .nav-link:hover::before{
+  .nav-link:hover::before {
     transform: scaleX(1);
   }
 
-  .hero{
+  .hero {
     height: 65vh;
   }
 
@@ -539,39 +536,33 @@ footer{
     transform: translateY(70%);
   }*/
 
-  .title-heading h1{
+  .title-heading h1 {
     font-size: 2.5rem;
   }
 }
 
-
-
-@media screen and (min-width: 950px){
-  .hero::before{
+@media screen and (min-width: 950px) {
+  .hero::before {
     height: 22.7rem;
     background: url("Images/wave-large.png");
     background-size: cover;
   }
 
-  .testimonials::before{
+  .testimonials::before {
     height: 16.7rem; /* Antes era 22.7rem */
     background: url("Images/wave-large-reversed.png");
     background-size: cover;
   }
 
-  .experience{
+  .experience {
     padding: 0;
   }
 }
 
-
-
-
-@media screen and (min-width: 1200px){
-  .hero{
+@media screen and (min-width: 1200px) {
+  .hero {
     height: 85vh;
   }
-  
 }
 
 .card {
@@ -582,10 +573,9 @@ footer{
 
   border-radius: 18px;
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-  font-family: Lato ;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  font-family: Lato;
   text-align: center;
-  
 
   transition: 0.5s ease;
   cursor: pointer;
@@ -605,24 +595,23 @@ footer{
 }
 .card-text.card1 .date {
   color: rgb(255, 7, 110);
-  font-size:13px;
+  font-size: 13px;
 }
 .card-text p {
   color: grey;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 300;
   margin-top: 6px;
 }
 .card-text h2 {
-  margin-top:0px;
-  font-size:28px;
+  margin-top: 0px;
+  font-size: 28px;
 }
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
-
 
 /*card2*/
 .card-image.card2 {
@@ -750,7 +739,7 @@ footer{
   background-position: center;
 }
 .card-text.card12 .date {
-  color: orange
+  color: orange;
 }
 
 /*card13*/
@@ -762,7 +751,7 @@ footer{
   background-position: center;
 }
 .card-text.card13 .date {
-  color: purple
+  color: purple;
 }
 
 /*card14*/
@@ -774,7 +763,7 @@ footer{
   background-position: center;
 }
 .card-text.card14 .date {
-  color: rgb(0, 89, 255)
+  color: rgb(0, 89, 255);
 }
 
 /*card0*/
@@ -786,7 +775,7 @@ footer{
   background-position: center;
 }
 .card-text.card0 .date {
-  color: rgb(234, 0, 55)
+  color: rgb(234, 0, 55);
 }
 
 /*card15*/
@@ -798,7 +787,7 @@ footer{
   background-position: center;
 }
 .card-text.card15 .date {
-  color: rgb(255, 140, 0)
+  color: rgb(255, 140, 0);
 }
 
 /*card16*/
@@ -810,7 +799,7 @@ footer{
   background-position: center;
 }
 .card-text.card16 .date {
-  color: rgb(132, 0, 215)
+  color: rgb(132, 0, 215);
 }
 
 /*card17 - Horizon*/
@@ -822,7 +811,7 @@ footer{
   background-position: center;
 }
 .card-text.card17 .date {
-  color: rgb(255, 109, 25)
+  color: rgb(255, 109, 25);
 }
 
 /*card18 - Art Gallery*/
@@ -834,7 +823,7 @@ footer{
   background-position: center;
 }
 .card-text.card18 .date {
-  color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
 /*card19 - Eye Tracker */
@@ -846,5 +835,17 @@ footer{
   background-position: center;
 }
 .card-text.card19 .date {
-  color: rgb(218, 80, 12)
+  color: rgb(218, 80, 12);
+}
+
+/*card21 - reservaeventos */
+.card-image.card21 {
+  background: url("Images/reservaeventosshowcase.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card21 .date {
+  color: rgb(0, 68, 255);
 }
