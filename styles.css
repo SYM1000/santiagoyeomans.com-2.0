@@ -849,3 +849,27 @@ footer {
 .card-text.card21 .date {
   color: rgb(0, 68, 255);
 }
+
+/*card22 - bessel */
+.card-image.card22 {
+  background: url("Images/besselCover.jpeg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card22 .date {
+  color: rgb(0, 68, 255);
+}
+
+/*card23 - lumi */
+.card-image.card23 {
+  background: url("Images/lumi_page.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card23 .date {
+  color: rgb(0, 68, 255);
+}
