@@ -874,6 +874,18 @@ footer {
   color: rgb(0, 68, 255);
 }
 
+/*card25 - SereneAI */
+.card-image.card25 {
+  background: url("Images/sereneai_logo.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card25 .date {
+  color: rgb(0, 122, 255);
+}
+
 /*card26 - Checkify */
 .card-image.card26 {
   background: url("Images/checkify_logo.png");
