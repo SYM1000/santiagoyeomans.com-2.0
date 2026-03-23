@@ -874,6 +874,18 @@ footer {
   color: rgb(0, 68, 255);
 }
 
+/*card24 - OpenControl.ai */
+.card-image.card24 {
+  background: url("Images/opencontrol_logo.svg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card24 .date {
+  color: rgb(36, 41, 47);
+}
+
 /*card25 - SereneAI */
 .card-image.card25 {
   background: url("Images/sereneai_logo.png");
