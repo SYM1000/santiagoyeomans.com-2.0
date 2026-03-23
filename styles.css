@@ -874,6 +874,18 @@ footer {
   color: rgb(0, 68, 255);
 }
 
+/*card27 - OpenGallery.ai */
+.card-image.card27 {
+  background: url("Images/opengallery_logo.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card27 .date {
+  color: rgb(168, 85, 247);
+}
+
 /*card28 - Endless Stories */
 .card-image.card28 {
   background: url("Images/endless_stories_logo.png");
