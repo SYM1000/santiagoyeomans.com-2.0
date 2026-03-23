@@ -874,6 +874,18 @@ footer {
   color: rgb(0, 68, 255);
 }
 
+/*card26 - Checkify */
+.card-image.card26 {
+  background: url("Images/checkify_logo.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.card-text.card26 .date {
+  color: rgb(255, 59, 48);
+}
+
 /*card27 - OpenGallery.ai */
 .card-image.card27 {
   background: url("Images/opengallery_logo.png");
